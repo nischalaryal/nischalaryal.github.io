@@ -1,61 +1,48 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	
-	<title>Nischal Aryal</title>
-	
-	<link rel="stylesheet" media="screen" href="css/style.css">
-	<link rel="stylesheet" media="screen" href="css/gradient.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nischal Aryal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-	<!-- particles.js container -->
-	<div id="particles-js"></div>
-	<div class="container-fluid">
-		<!-- <div class="row">
-			<i class="bi-github" style="font-size: 2rem; color: rgb(247, 248, 251);"></i>
-		</div> -->
-		<div class="row align-items-center" style="padding-top: 50px">
-			<div class="col-5">
-				<div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-					<img class="backdrop linktree">
-					<h2 style="color: #ffffff; padding-top: 20px;">Nischal Aryal</h2>
-				</div>
-			</div>
-			<div class="col-7">
-				<div class="row">
-					<div style="padding-bottom: 30px;">
-						<button onclick="location.href='https://www.youtube.com/@aryalnischal'" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Places through my eyes</button>
-					</div>
-					<div style="padding-bottom: 30px;">
-						<button onclick="location.href='https://nischalaryal.medium.com'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Pen and paper</button>
-					</div>
-					<div style="padding-bottom: 30px;">
-						<button onclick="location.href='https://www.youtube.com/user/Nisxal17'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Discovering the virtual landscapes</button>
-					</div>
-					<div style="padding-bottom: 30px;">
-						<button onclick="location.href='https://www.linkedin.com/in/nischalaryal17/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">My professional side</button>
-					</div>
-					<div style="padding-bottom: 30px;">
-						<button onclick="location.href='https://github.com/nischalaryal'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">My interest in knowledge sharing</button>
-					</div>
-				</div>
-			</div>
-		</div>	
-	</div>
-	
-	
-    
-
-	<!-- scripts -->
-	<script src="js/particles.js"></script>
-	<script src="js/app.js"></script>
+    <canvas id="starCanvas"></canvas>
+    <div class="container">
+        <div class="overlay">
+            <div class="image-frame">
+                <img src="me.heic" alt="Profile Image">
+            </div>
+            <h1>Nischal Aryal</h1>
+            <div class="category-container">
+                <button onclick="location.href='https://scholar.google.com/citations?user=-O5wEa0AAAAJ&hl=en&oi=ao'" class="category-item">
+                    <i class="bi bi-book"></i>
+                    <span>Google Scholar</span>
+                </button>
+                <button onclick="location.href='https://www.github.com/nischalaryal'" class="category-item">
+                    <i class="bi bi-github"></i>
+                    <span>GitHub</span>
+                </button>
+                <button onclick="location.href='https://www.youtube.com/@codeinsanity'" class="category-item">
+                    <i class="bi bi-share-fill"></i>
+                    <span>Knowledge Sharing</span>
+                </button>
+                <button onclick="location.href='https://www.linkedin.com/in/nischalaryal17/'" class="category-item">
+                    <i class="bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </button>
+                <button onclick="location.href='https://www.youtube.com/@aryalnischal'" class="category-item">
+                    <i class="bi bi-suitcase-fill"></i>
+                    <span>Travels</span>
+                </button>
+                <button onclick="location.href='https://www.instagram.com/nischalaryal'" class="category-item">
+                    <i class="bi bi-camera"></i>
+                    <span>Photography</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
