@@ -8,6 +8,7 @@
 html, body {
     height: 100%; /* Ensure the body and html take full height */
     overflow-x: hidden; /* Prevent horizontal overflow */
+    overflow-y: auto;
 }
 
 body {
